@@ -23,17 +23,15 @@ var api_key = 'abcdefghijklmnopqrstuvwxyz123456';
 3.1. Get the newest value ([Gross Domestic Product, Series-ID = GDP](https://fred.stlouisfed.org/series/GDP)):
 
 ```
-=fredDATA("GDP";0)
+=fredDATA("GDP",0)
 ```
 
-![grafik](https://user-images.githubusercontent.com/66874303/131307299-9983aae8-a4ff-4341-88f7-2f41791dd7bb.png)
+![grafik](https://user-images.githubusercontent.com/66874303/131311079-65da4d12-d301-4137-91f4-f26cdce14242.png)
 
 3.2. Get all historical values ([Unemployment Rate, Series-ID = UNRATE](https://fred.stlouisfed.org/series/UNRATE)):
 
 ```
-=fredDATA("UNRATE";1)
+=fredDATA("UNRATE",1)
 ```
 
-![grafik](https://user-images.githubusercontent.com/66874303/131308771-c8d156be-fe4f-4062-a9d8-e711fd514104.png)
-
-
+![grafik](https://user-images.githubusercontent.com/66874303/131310253-7ea06b23-5551-4da9-8a40-159efc47ffb7.png)

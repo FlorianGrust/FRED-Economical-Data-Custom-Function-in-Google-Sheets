@@ -1,4 +1,4 @@
-# Custom Function (Google Sheets) to Import FRED-Economical-Data
+# Custom Function (Google Sheets) to Import FRED® Economical Data
 
 FRED-Database: https://fred.stlouisfed.org/
 

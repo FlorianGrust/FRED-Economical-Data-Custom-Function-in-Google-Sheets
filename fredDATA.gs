@@ -4,7 +4,7 @@
  * @param {string} series_id
  * Example: "GDP" (Gross Domestic Product)
  * 
- * @param {string} parameter
+ * @param {boolean} parameter
  * 0 (default) = Current Value | 1 = All Values
  * 
  * @customfunction

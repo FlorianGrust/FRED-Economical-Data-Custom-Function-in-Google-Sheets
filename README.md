@@ -5,7 +5,7 @@ This product uses the FRED® API but is not endorsed or certified by the Federal
 https://fred.stlouisfed.org/docs/api/fred/fred.html
 
 ## 2. Setup
-### 1.1. Create a custom function in Google Sheets
+### 2.1. Create a custom function in Google Sheets
 https://developers.google.com/apps-script/guides/sheets/functions
 
 ### 2.2. Request an API-Key

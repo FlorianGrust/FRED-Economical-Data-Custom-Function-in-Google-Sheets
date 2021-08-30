@@ -39,7 +39,7 @@ var api_key = 'abcdefghijklmnopqrstuvwxyz123456';
 ## 4. Use Case (["Buffett-Indicator"](https://www.investopedia.com/terms/m/marketcapgdp.asp) - Stock Market Capitalization-to-GDP Ratio)
 
 ```
-=query(fredDATA("WILL5000PR"),"select Col2 offset 1",0)/QUERY(fredDATA("GDP"),"select Col2 offset 1",0)
+=query(fredDATA("WILL5000PR",0),"select Col2 offset 1",0)/QUERY(fredDATA("GDP",0),"select Col2 offset 1",0)
 ```
 
 

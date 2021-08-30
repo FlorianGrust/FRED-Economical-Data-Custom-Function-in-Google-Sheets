@@ -11,7 +11,7 @@
  * @return an array
  */
 
-function fredAPI(series_id, parameter) {
+function fredDATA(series_id, parameter) {
 
   var api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; //Change this variable to your API-Key
 

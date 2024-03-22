@@ -44,7 +44,12 @@ function multiSeriesFred(ids, parameter){
 
           }
         }
-        results_array.push(newValues[1]);
+        var newSeriesIndex = results_array.length;
+        results_array[newSeriesIndex] = [];
+
+        for(var x=0; x<results_array[0].length; x++){
+          results_array[newSeriesIndex][x] = newValues[1][newValues[0].indexOf(results_array[0][x])];
+        }
       }
     }
   }
@@ -65,8 +70,6 @@ function multiSeriesFred(ids, parameter){
   }
   output_array.splice(0, 0, first_row);
 
-  // console.log(output_array[0])
-  // console.log(output_array[1])
   return output_array
 }
 
